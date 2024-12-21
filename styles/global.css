@@ -65,14 +65,21 @@ a {
   max-width: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.24);
+  height: 80px;
+  position: fixed;
+  top: 0px; /* Distance from the top of the viewport */
+  left: 0px; /* Distance from the left of the viewport */
+}
+
+.container {
+  width: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  height: 80px;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0 auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -83,9 +90,9 @@ a {
   font-family: Spartan;
   font-size: 20px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
-  margin-left: 70px;
+  font-size: 30px;
 }
 
 .mpy2 {
@@ -93,10 +100,75 @@ a {
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
-  margin-right: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .img1 {
   width: 20px;
   height: 20px;
+  cursor: pointer;
+}
+
+* a {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 20px;
+}
+
+.xazi {
+  width: 2px;
+  height: 22px;
+  background: #e5e5e5;
+}
+
+.image {
+  width: 70px;
+  height: 70px;
+}
+
+.divi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.mpy2 li {
+  cursor: pointer;
+}
+.mpy2 .mam :hover {
+  text-decoration: underline;
+}
+
+.mps {
+  display: none;
+}
+
+@media (max-width: 690px) {
+  .mpy2 .mam {
+    display: none;
+  }
+  .mps {
+    display: block;
+  }
+}
+@media (max-width: 477px) {
+  .mpy1 {
+    display: none;
+  }
 }/*# sourceMappingURL=global.css.map */

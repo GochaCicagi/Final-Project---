@@ -78,19 +78,82 @@
 
 .sec1 {
   .container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 30px;
     .divi2 {
       margin-top: 200px;
       display: flex;
       flex-direction: column;
+      align-items: center;
       h3 {
         color: #fff;
         text-align: right;
         font-family: Roboto;
-        font-size: 30px;
+        font-size: 15px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
+        padding-left: 115px;
       }
     }
+  }
+}
+
+.eldeni {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 60px;
+  color: rgb(255, 218, 7);
+  margin-left: 130px;
+}
+.divi3 {
+  display: flex;
+  row-gap: 30px;
+  align-items: center;
+  justify-content: center;
+  column-gap: 15px;
+  h5 {
+    color: #e5e5e5;
+    font-family: Lora;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  p {
+    color: #e5e5e5;
+    font-family: Lora;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    width: 420px;
+  }
+}
+.xazi2 {
+  width: 30px;
+  height: 1px;
+  background: #e5e5e5;
+}
+.divi4 {
+  display: flex;
+  gap: 15px;
+  margin-left: 125px;
+  margin-top: 45px;
+  .mpy5 {
+    width: 8px;
+    height: 8px;
+    flex-shrink: 0;
+    background-color: white;
+    border-radius: 50%;
+  }
+  div{
+    width: 8px;
+    height: 8px;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: 50%;
   }
 }

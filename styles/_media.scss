@@ -13,3 +13,26 @@
       display: none;
     }
   }
+  @media (max-width: 540px) {
+    .divi3{
+      flex-direction: column;
+      justify-content: start;
+      row-gap: 8px;
+    }
+    .container{
+      row-gap: 8px;
+    }
+    .eldeni{
+      margin-left: 20px;
+    }
+    .divi2{
+      h3{
+        justify-content: start;
+        align-items: start;
+        padding-right: 100px;
+      }
+    }
+    .divi4{
+      margin-left: 40px;
+    }
+  }

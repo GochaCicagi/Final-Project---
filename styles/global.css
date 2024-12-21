@@ -155,7 +155,7 @@ a {
   text-decoration: underline;
 }
 
-.mps {
+.mpss {
   display: none;
 }
 
@@ -163,7 +163,7 @@ a {
   .mpy2 .mam {
     display: none;
   }
-  .mps {
+  .mpss {
     display: block;
   }
 }

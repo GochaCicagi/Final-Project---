@@ -29,7 +29,7 @@
     h3 {
       justify-content: start;
       align-items: start;
-      padding-right: 100px;
+      
     }
   }
   .divi4 {
@@ -37,27 +37,44 @@
   }
 }
 
-@media (max-width: 357px) {
+@media (max-width: 394px) {
   .divi3 {
     flex-direction: column;
-    justify-content: start;
+    align-items: start;
     row-gap: 8px;
+    h5{
+      margin-left: 10px;
+    }
+    p{
+      width: 330px;
+    }
+    img{
+      display: none;
+    }
   }
   .container {
     row-gap: 8px;
   }
   .eldeni {
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 40px;
   }
   .divi2 {
+    margin-top: 70px;
     h3 {
       justify-content: start;
       align-items: start;
-      padding-right: 100px;
+      
     }
   }
   .divi4 {
     margin-left: 40px;
+  }
+}
+
+@media (max-width: 397px) {
+  .eldeni {
+    margin-left: 20px;
+    font-size: 40px;
   }
 }

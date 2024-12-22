@@ -52,15 +52,11 @@
   justify-content: center;
   gap: 20px;
 }
-.mpy2 {
-  li {
-    cursor: poiter;
-  }
-  .mam {
-    :hover {
-      text-decoration: underline;
-    }
-  }
+.mpy2 li {
+  cursor: pointer !important;
+}
+nav .mam:hover {
+  text-decoration: underline;
 }
 
 .bars {
@@ -165,4 +161,7 @@
 .containeri2 {
   max-width: 95%;
   margin: 0 auto;
+}
+.divi4 {
+  cursor: pointer;
 }

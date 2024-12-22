@@ -149,9 +149,10 @@ a {
 }
 
 .mpy2 li {
-  cursor: poiter;
+  cursor: pointer !important;
 }
-.mpy2 .mam :hover {
+
+nav .mam:hover {
   text-decoration: underline;
 }
 
@@ -287,6 +288,10 @@ a {
 .containeri2 {
   max-width: 95%;
   margin: 0 auto;
+}
+
+.divi4 {
+  cursor: pointer;
 }
 
 @media (max-width: 690px) {

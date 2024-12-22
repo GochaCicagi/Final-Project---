@@ -76,3 +76,16 @@
     font-size: 40px;
   }
 }
+
+@media (max-width: 280px) {
+ .eldeni{
+  font-size: 30px;
+ }
+ .divi2 {
+  h3 {
+    justify-content: start;
+    align-items: start;
+    font-size: 25px;
+  }
+  
+}

@@ -160,7 +160,7 @@ a {
 }
 
 .head {
-  background-image: url(/images/eldenring.jpg);
+  background-image: url(images/eldenring.jpg);
   background-repeat: no-repeat;
   max-width: 100%;
   height: 600px;
@@ -307,6 +307,37 @@ a {
   }
   .eldeni {
     margin-left: 20px;
+  }
+  .divi2 h3 {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    padding-right: 100px;
+  }
+  .divi4 {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 357px) {
+  .divi3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    row-gap: 8px;
+  }
+  .container {
+    row-gap: 8px;
+  }
+  .eldeni {
+    margin-left: 20px;
+    font-size: 40px;
   }
   .divi2 h3 {
     -webkit-box-pack: start;

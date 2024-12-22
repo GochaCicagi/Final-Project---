@@ -1,5 +1,6 @@
 .head {
   @include chemimixini;
+
   position: fixed;
   top: 0px; /* Distance from the top of the viewport */
   left: 0px; /* Distance from the left of the viewport */
@@ -55,10 +56,11 @@
 .mpy2 li {
   cursor: pointer !important;
 }
-nav .mam:hover {
-  text-decoration: underline;
+.nav {
+  .mam:hover {
+    text-decoration: underline;
+  }
 }
-
 .bars {
   display: none;
 }
@@ -69,17 +71,16 @@ nav .mam:hover {
   height: 590px;
   background-size: cover;
   background-position: center;
-  z-index: -1;
+  z-index: -11;
 }
 
 .sec1 {
   .container1 {
-    display: flex;
     flex-direction: column;
     align-items: start;
     row-gap: 30px;
     max-width: 95%;
-    height: 590px;
+    height: 390px;
     margin: 0 auto;
 
     .divi2 {
@@ -106,7 +107,7 @@ nav .mam:hover {
   font-style: normal;
   font-size: 60px;
   color: rgb(255, 218, 7);
-  margin-left: 130px;
+  margin-left: 100px;
 }
 .divi3 {
   display: flex;
@@ -114,6 +115,7 @@ nav .mam:hover {
   align-items: center;
   justify-content: center;
   column-gap: 15px;
+  margin-top: 30px;
   h5 {
     color: #e5e5e5;
     font-family: Lora;
@@ -159,9 +161,15 @@ nav .mam:hover {
   }
 }
 .containeri2 {
-  max-width: 95%;
+  max-width: 100%;
   margin: 0 auto;
 }
 .divi4 {
   cursor: pointer;
+  margin-top: 100px;
+}
+.diva {
+  max-width: 500px;
+  justify-content: start;
+  align-items: start;
 }

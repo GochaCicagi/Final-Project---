@@ -152,7 +152,7 @@ a {
   cursor: pointer !important;
 }
 
-nav .mam:hover {
+.nav .mam:hover {
   text-decoration: underline;
 }
 
@@ -167,13 +167,10 @@ nav .mam:hover {
   height: 590px;
   background-size: cover;
   background-position: center;
-  z-index: -1;
+  z-index: -11;
 }
 
 .sec1 .container1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -183,7 +180,7 @@ nav .mam:hover {
           align-items: start;
   row-gap: 30px;
   max-width: 95%;
-  height: 590px;
+  height: 390px;
   margin: 0 auto;
 }
 .sec1 .container1 .divi2 {
@@ -217,7 +214,7 @@ nav .mam:hover {
   font-style: normal;
   font-size: 60px;
   color: rgb(255, 218, 7);
-  margin-left: 130px;
+  margin-left: 100px;
 }
 
 .divi3 {
@@ -234,6 +231,7 @@ nav .mam:hover {
   -webkit-column-gap: 15px;
      -moz-column-gap: 15px;
           column-gap: 15px;
+  margin-top: 30px;
 }
 .divi3 h5 {
   color: #e5e5e5;
@@ -286,12 +284,23 @@ nav .mam:hover {
 }
 
 .containeri2 {
-  max-width: 95%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 .divi4 {
   cursor: pointer;
+  margin-top: 100px;
+}
+
+.diva {
+  max-width: 500px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
 }
 
 @media (max-width: 690px) {
@@ -332,6 +341,9 @@ nav .mam:hover {
         -ms-flex-align: start;
             align-items: start;
   }
+  .divi2 p {
+    margin-left: 3px;
+  }
   .divi4 {
     margin-left: 40px;
   }
@@ -352,6 +364,7 @@ nav .mam:hover {
   }
   .divi3 p {
     width: 340px;
+    margin-left: 5px;
   }
   .divi3 img {
     display: none;
@@ -396,5 +409,10 @@ nav .mam:hover {
         -ms-flex-align: start;
             align-items: start;
     font-size: 25px;
+  }
+}
+@media (max-width: 364px) {
+  .divi3 h5 {
+    margin-left: 30px;
   }
 }/*# sourceMappingURL=global.css.map */

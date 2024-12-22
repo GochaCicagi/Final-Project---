@@ -384,4 +384,13 @@ a {
   .eldeni {
     font-size: 30px;
   }
+  .divi2 h3 {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    font-size: 25px;
+  }
 }/*# sourceMappingURL=global.css.map */

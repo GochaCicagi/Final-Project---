@@ -73,17 +73,17 @@
   height: 590px;
   background-size: cover;
   background-position: center;
-  z-index: 1;
+  z-index: -1;
 }
 
 .sec1 {
-  .container {
+  .container1{
     display: flex;
     flex-direction: column;
     align-items: start;
     row-gap: 30px;
     max-width: 95%;
-    height: 520px;
+    height: 590px;
     margin: 0 auto;
 
     .divi2 {
@@ -162,7 +162,7 @@
     border-radius: 50%;
   }
 }
-.containeri {
+.containeri2 {
   max-width: 95%;
   margin: 0 auto;
   border: 1px solid red;

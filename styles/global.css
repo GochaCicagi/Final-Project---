@@ -166,10 +166,10 @@ a {
   height: 590px;
   background-size: cover;
   background-position: center;
-  z-index: 1;
+  z-index: -1;
 }
 
-.sec1 .container {
+.sec1 .container1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,10 +182,10 @@ a {
           align-items: start;
   row-gap: 30px;
   max-width: 95%;
-  height: 520px;
+  height: 590px;
   margin: 0 auto;
 }
-.sec1 .container .divi2 {
+.sec1 .container1 .divi2 {
   margin-top: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -198,7 +198,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
-.sec1 .container .divi2 h3 {
+.sec1 .container1 .divi2 h3 {
   color: #fff;
   text-align: right;
   font-family: Roboto;
@@ -284,7 +284,7 @@ a {
   border-radius: 50%;
 }
 
-.containeri {
+.containeri2 {
   max-width: 95%;
   margin: 0 auto;
   border: 1px solid red;

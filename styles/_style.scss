@@ -1,12 +1,14 @@
 .head {
   @include chemimixini;
-
+ 
   position: fixed;
   top: 0px; /* Distance from the top of the viewport */
   left: 0px; /* Distance from the left of the viewport */
 }
 .container {
   @include containeri;
+  background-color: #00000028;
+  z-index: 111111111;
 }
 .mpy1 {
   color: #f8f9fa;
@@ -132,7 +134,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 166.667% */
-    width: 420px;
+    max-width: 420px;
   }
 }
 .xazi2 {
@@ -174,9 +176,23 @@
   justify-content: start;
   align-items: start;
 }
+.mpy1 {
+  margin-right: 15px;
+}
 .sec2 {
   max-width: 100%;
   .containeri2 {
     @include containeri2;
+    border: 2px solid red;
+    background-image: url(/images/logo.png);
+    h1 {
+      color: #495057;
+      font-family: Lora;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: 50px;
+    }
   }
 }

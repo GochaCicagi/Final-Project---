@@ -1,19 +1,14 @@
-@mixin chemimixini {
-  max-width: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.24);
-  height: 80px;
+@mixin container {
+  max-width: 95%;
+  margin: 0 auto;
 }
 
-@mixin containeri {
-  max-width: 95%;
+@mixin divflex {
+  max-width: 100%;
   display: flex;
+  background-color: rgba(0, 0, 0, 0.158);
   justify-content: space-between;
   align-items: center;
   // border: 1px solid red;
 }
 
-@mixin containeri2 {
-  max-width: 95%;
-  margin: 0 auto;
-}

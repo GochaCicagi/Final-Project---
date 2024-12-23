@@ -1,22 +1,19 @@
 @mixin chemimixini {
-        max-width: 100%;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.24);
-        height: 80px;
+  max-width: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.24);
+  height: 80px;
 }
 
 @mixin containeri {
-    width: 95%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    align-items: center;
-    // border: 1px solid red;
+  max-width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // border: 1px solid red;
 }
 
 @mixin containeri2 {
-    width: 95%;
-    
-    margin: 0 auto;
-    
+  max-width: 95%;
+  margin: 0 auto;
 }

@@ -66,25 +66,28 @@ a {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.24);
   height: 80px;
-  position: fixed;
-  top: 0px; /* Distance from the top of the viewport */
-  left: 0px; /* Distance from the left of the viewport */
+  /* Distance from the left of the viewport */
 }
 
 .container {
-  width: 95%;
+  max-width: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0 auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: fixed;
+  width: 95%;
+  top: 0px;
+  left: 40% px;
+  -webkit-transform: translate(2%);
+      -ms-transform: translate(2%);
+          transform: translate(2%);
   background-color: rgba(0, 0, 0, 0.1568627451);
-  z-index: 111111111;
 }
 
 .mpy1 {
@@ -172,165 +175,6 @@ a {
   z-index: -11;
 }
 
-.sec1 {
-  max-width: 100%;
-}
-.sec1 .container1 {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
-  row-gap: 30px;
-  max-width: 95%;
-  height: 390px;
-  margin: 0 auto;
-}
-.sec1 .container1 .divi2 {
-  margin-top: 200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.sec1 .container1 .divi2 h3 {
-  color: #fff;
-  text-align: right;
-  font-family: Roboto;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
-}
-
-.eldeni {
-  font-weight: 300;
-  font-style: normal;
-  font-size: 60px;
-  color: rgb(255, 218, 7);
-  margin-left: 100px;
-}
-
-.divi3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  row-gap: 30px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-column-gap: 15px;
-     -moz-column-gap: 15px;
-          column-gap: 15px;
-  margin-top: 30px;
-}
-.divi3 h5 {
-  color: #e5e5e5;
-  font-family: Lora;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.divi3 p {
-  color: #e5e5e5;
-  font-family: Lora;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px; /* 166.667% */
-  max-width: 420px;
-}
-
-.xazi2 {
-  width: 30px;
-  height: 1px;
-  background: #e5e5e5;
-}
-
-.divi4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 15px;
-  margin-left: 125px;
-  margin-top: 20px;
-  margin-bottom: 200px;
-}
-.divi4 .mpy5 {
-  width: 8px;
-  height: 8px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  background-color: white;
-  border-radius: 50%;
-}
-.divi4 div {
-  width: 8px;
-  height: 8px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  background-color: rgba(255, 255, 255, 0.671);
-  border-radius: 50%;
-}
-
-.containeri2 {
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.divi4 {
-  cursor: pointer;
-  margin-top: 100px;
-}
-
-.diva {
-  max-width: 500px;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
-}
-
-.mpy1 {
-  margin-right: 15px;
-}
-
-.sec2 {
-  max-width: 100%;
-}
-.sec2 .containeri2 {
-  width: 95%;
-  margin: 0 auto;
-  border: 2px solid red;
-  background-image: url(/images/logo.png);
-}
-.sec2 .containeri2 h1 {
-  color: #495057;
-  font-family: Lora;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  margin-top: 50px;
-}
-
 @media (max-width: 690px) {
   .mpy2 .mam {
     display: none;
@@ -342,105 +186,5 @@ a {
 @media (max-width: 477px) {
   .mpy1 {
     display: none;
-  }
-}
-@media (max-width: 540px) {
-  .divi3 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
-    row-gap: 8px;
-  }
-  .container {
-    row-gap: 8px;
-  }
-  .eldeni {
-    margin-left: 20px;
-  }
-  .divi2 h3 {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: start;
-  }
-  .divi2 p {
-    margin-left: 3px;
-  }
-  .divi4 {
-    margin-left: 40px;
-  }
-}
-@media (max-width: 394px) {
-  .divi3 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: start;
-    row-gap: 8px;
-  }
-  .divi3 h5 {
-    margin-left: 10px;
-  }
-  .divi3 p {
-    width: 340px;
-    margin-left: 5px;
-  }
-  .divi3 img {
-    display: none;
-  }
-  .container {
-    row-gap: 8px;
-  }
-  .eldeni {
-    margin-left: 20px;
-    font-size: 40px;
-  }
-  .divi2 {
-    margin-top: 70px;
-  }
-  .divi2 h3 {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: start;
-  }
-  .divi4 {
-    margin-left: 40px;
-  }
-}
-@media (max-width: 397px) {
-  .eldeni {
-    margin-left: 20px;
-    font-size: 40px;
-  }
-}
-@media (max-width: 280px) {
-  .eldeni {
-    font-size: 30px;
-  }
-  .divi2 h3 {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: start;
-    font-size: 25px;
-  }
-}
-@media (max-width: 356px) {
-  .divi3 p {
-    max-width: 250px;
   }
 }/*# sourceMappingURL=global.css.map */

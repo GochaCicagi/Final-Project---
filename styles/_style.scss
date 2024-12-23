@@ -1,14 +1,15 @@
 .head {
   @include chemimixini;
-
-  position: fixed;
-  top: 0px; /* Distance from the top of the viewport */
-  left: 0px; /* Distance from the left of the viewport */
+  /* Distance from the left of the viewport */
 }
 .container {
   @include containeri;
+  position: fixed;
+  width: 95%;
+  top: 0px;
+  left: 40%px;
+  transform: translate(2%);
   background-color: #00000028;
-  z-index: 111111111;
 }
 .mpy1 {
   color: #f8f9fa;
@@ -74,125 +75,4 @@
   background-size: cover;
   background-position: center;
   z-index: -11;
-}
-
-.sec1 {
-  max-width: 100%;
-  .container1 {
-    flex-direction: column;
-    align-items: start;
-    row-gap: 30px;
-    max-width: 95%;
-    height: 390px;
-    margin: 0 auto;
-
-    .divi2 {
-      margin-top: 200px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      h3 {
-        color: #fff;
-        text-align: right;
-        font-family: Roboto;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        align-items: start;
-      }
-    }
-  }
-}
-
-.eldeni {
-  font-weight: 300;
-  font-style: normal;
-  font-size: 60px;
-  color: rgb(255, 218, 7);
-  margin-left: 100px;
-}
-.divi3 {
-  display: flex;
-  row-gap: 30px;
-  align-items: center;
-  justify-content: center;
-  column-gap: 15px;
-  margin-top: 30px;
-  h5 {
-    color: #e5e5e5;
-    font-family: Lora;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-  p {
-    color: #e5e5e5;
-    font-family: Lora;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 166.667% */
-    max-width: 420px;
-  }
-}
-.xazi2 {
-  width: 30px;
-  height: 1px;
-  background: #e5e5e5;
-}
-.divi4 {
-  display: flex;
-  gap: 15px;
-  margin-left: 125px;
-  margin-top: 20px;
-  margin-bottom: 200px;
-  .mpy5 {
-    width: 8px;
-    height: 8px;
-    flex-shrink: 0;
-    background-color: white;
-    border-radius: 50%;
-  }
-  div {
-    width: 8px;
-    height: 8px;
-    flex-shrink: 0;
-    background-color: rgba(255, 255, 255, 0.671);
-    border-radius: 50%;
-  }
-}
-.containeri2 {
-  max-width: 100%;
-  margin: 0 auto;
-}
-.divi4 {
-  cursor: pointer;
-  margin-top: 100px;
-}
-.diva {
-  max-width: 500px;
-  justify-content: start;
-  align-items: start;
-}
-.mpy1 {
-  margin-right: 15px;
-}
-.sec2 {
-  max-width: 100%;
-  .containeri2 {
-    @include containeri2;
-    border: 2px solid red;
-    background-image: url(/images/logo.png);
-    h1 {
-      color: #495057;
-      font-family: Lora;
-      font-size: 36px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      margin-top: 50px;
-    }
-  }
 }

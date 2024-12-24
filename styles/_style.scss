@@ -1,78 +1,114 @@
 .head {
-  background-image: url(../images/eldenring.jpg);
-  background-repeat: no-repeat;
-  max-width: 100%;
-  height: 500px;
-  background-size: cover;
-  background-position: center;
-  z-index: -11;
+    background-image: url(../images/eldenring.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
 }
+
+.head .container {
+    @include container;
+}
+
 .divflex {
-  @include divflex;
-  position: fixed;
-  width: 100%;
-  top: 0px;
+    @include divflex;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
 }
+
+.head-info {
+    border: 2px solid red;
+    width: 530px;
+}
+
+.head-info button {
+    color: #fff;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 5px 10px;
+    border: none;
+}
+
+.head-info h2 {
+    color: #fff;
+    font-family: Lora;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .divi {
-  margin-left: 5px;
-  margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
 }
 .mpy1 {
-  color: #f8f9fa;
-  font-family: Spartan;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  font-size: 30px;
+    color: #f8f9fa;
+    font-family: Spartan;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 30px;
 }
 .mpy2 {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  align-items: center;
-  margin-right: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
 }
 .img1 {
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 *a {
-  color: #fff;
-  font-family: Roboto;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  font-size: 20px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 20px;
 }
 .xazi {
-  width: 2px;
-  height: 22px;
-  background: #e5e5e5;
+    width: 2px;
+    height: 22px;
+    background: #e5e5e5;
 }
 .image {
-  width: 70px;
-  height: 70px;
+    width: 70px;
+    height: 70px;
 }
 .divi {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 .mpy2 li {
-  cursor: pointer !important;
+    cursor: pointer !important;
 }
 .mpy2 {
-  .click :hover {
-    text-decoration: underline;
-  }
+    .click :hover {
+        text-decoration: underline;
+    }
 }
 .bars {
-  display: none;
+    display: none;
 }
 .container {
-  @include container;
+    @include container;
 }

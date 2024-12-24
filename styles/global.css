@@ -68,7 +68,18 @@ a {
   height: 500px;
   background-size: cover;
   background-position: center;
-  z-index: -11;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.head .container {
+  max-width: 1300px;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .divflex {
@@ -86,6 +97,35 @@ a {
   position: fixed;
   width: 100%;
   top: 0px;
+  z-index: 10;
+}
+
+.head-info {
+  border: 2px solid red;
+  width: 530px;
+}
+
+.head-info button {
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 5px 10px;
+  border: none;
+}
+
+.head-info h2 {
+  color: #fff;
+  font-family: Lora;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .divi {
@@ -170,7 +210,8 @@ a {
 }
 
 .container {
-  max-width: 95%;
+  max-width: 1300px;
+  width: 95%;
   margin: 0 auto;
 }
 

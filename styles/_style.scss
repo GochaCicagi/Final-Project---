@@ -24,7 +24,6 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  // margin-left: 20px;
   font-size: 30px;
 }
 .mpy2 {
@@ -66,8 +65,8 @@
 .mpy2 li {
   cursor: pointer !important;
 }
-.nav {
-  .click:hover {
+.mpy2 {
+  .click :hover {
     text-decoration: underline;
   }
 }

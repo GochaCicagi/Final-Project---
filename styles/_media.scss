@@ -13,3 +13,22 @@
     display: none;
   }
 }
+@media (max-width: 332px) {
+  .head-info{
+    margin-left: 1px;
+  }
+  .div-round{
+    display: none;
+  }
+}
+@media (max-width: 231px) {
+  .head-info{
+   .elden {
+    font-size: 30px;
+   } 
+   p{
+    font-size: 15px;
+   }
+    
+  }
+}

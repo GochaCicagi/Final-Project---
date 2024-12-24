@@ -76,12 +76,6 @@ a {
           align-items: center;
 }
 
-.head .container {
-  max-width: 1300px;
-  width: 95%;
-  margin: 0 auto;
-}
-
 .divflex {
   max-width: 100%;
   display: -webkit-box;
@@ -101,8 +95,41 @@ a {
 }
 
 .head-info {
-  border: 2px solid red;
-  width: 530px;
+  width: 400px;
+  margin-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  row-gap: 10px;
+  max-height: 296px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+.head-info p {
+  color: #e5e5e5;
+  font-family: Lora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  margin-bottom: 50px;
+}
+.head-info .elden {
+  color: rgb(243, 209, 17);
+  font-size: 50px;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.head-info button {
+  margin-left: 3px;
+  cursor: pointer;
 }
 
 .head-info button {
@@ -117,15 +144,6 @@ a {
   background: rgba(255, 255, 255, 0.15);
   padding: 5px 10px;
   border: none;
-}
-
-.head-info h2 {
-  color: #fff;
-  font-family: Lora;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
 }
 
 .divi {
@@ -215,6 +233,26 @@ a {
   margin: 0 auto;
 }
 
+.div-round {
+  width: 74px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+.div-round .div-colorful {
+  border-radius: 50%;
+  background-color: white;
+  height: 10px;
+  width: 10px;
+}
+.div-round div {
+  height: 10px;
+  border-radius: 50%;
+  width: 10px;
+  background-color: rgba(202, 181, 181, 0.384);
+}
+
 @media (max-width: 690px) {
   .mpy2 .click {
     display: none;
@@ -226,5 +264,21 @@ a {
 @media (max-width: 477px) {
   .mpy1 {
     display: none;
+  }
+}
+@media (max-width: 332px) {
+  .head-info {
+    margin-left: 1px;
+  }
+  .div-round {
+    display: none;
+  }
+}
+@media (max-width: 231px) {
+  .head-info .elden {
+    font-size: 30px;
+  }
+  .head-info p {
+    font-size: 15px;
   }
 }/*# sourceMappingURL=global.css.map */

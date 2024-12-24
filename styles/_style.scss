@@ -31,7 +31,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px; /* 166.667% */
+    line-height: 20px; /* 166.667% */
     margin-bottom: 50px;
   }
   .elden {
@@ -122,9 +122,7 @@
 .bars {
   display: none;
 }
-.container {
-  @include container;
-}
+
 .div-round {
   width: 74px;
   display: flex;
@@ -141,5 +139,21 @@
     border-radius: 50%;
     width: 10px;
     background-color: rgba(202, 181, 181, 0.384);
+  }
+}
+.container {
+  @include container;
+  border: 2px solid red;
+}
+.sec1 {
+  .container {
+    h1 {
+      color: #495057;
+      font-family: Lora;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
   }
 }

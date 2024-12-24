@@ -116,7 +116,7 @@ a {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px; /* 166.667% */
+  line-height: 20px; /* 166.667% */
   margin-bottom: 50px;
 }
 .head-info .elden {
@@ -227,12 +227,6 @@ a {
   display: none;
 }
 
-.container {
-  max-width: 1300px;
-  width: 95%;
-  margin: 0 auto;
-}
-
 .div-round {
   width: 74px;
   display: -webkit-box;
@@ -252,6 +246,22 @@ a {
   border-radius: 50%;
   width: 10px;
   background-color: rgba(202, 181, 181, 0.384);
+}
+
+.container {
+  max-width: 1750px;
+  width: 95%;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+.sec1 .container h1 {
+  color: #495057;
+  font-family: Lora;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 @media (max-width: 690px) {
@@ -281,5 +291,16 @@ a {
   }
   .head-info p {
     font-size: 15px;
+  }
+}
+@media (max-width: 109px) {
+  .head-info p {
+    display: none;
+  }
+  .head-info .elden {
+    font-size: 20px;
+  }
+  .head-info button {
+    font-size: 5px;
   }
 }/*# sourceMappingURL=global.css.map */

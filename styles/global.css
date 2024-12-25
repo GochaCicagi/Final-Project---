@@ -81,7 +81,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: rgba(0, 0, 0, 0.158);
+  background-color: rgba(0, 0, 0, 0.575);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -234,6 +234,7 @@ a {
   display: flex;
   margin-bottom: 5px;
   gap: 15px;
+  cursor: pointer;
 }
 .div-round .div-colorful {
   border-radius: 50%;
@@ -252,15 +253,73 @@ a {
   max-width: 1750px;
   width: 95%;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
-.sec1 .container h1 {
-  color: #495057;
+.sec1 {
+  background-color: #f1f1f1;
+}
+.sec1 .container .div-games {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 100%;
+  margin-top: 30px;
+  gap: 30px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.sec1 .container .div-games .Gow {
+  max-width: 336px;
+  height: 189px;
+}
+.sec1 .container .div-games .GoW :hover {
+  max-width: 340px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); /* Slightly enlarge the div */
+}
+.sec1 .container .div-games .silenthill :hover {
+  max-width: 340px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); /* Slightly enlarge the div */
+}
+.sec1 .container .div-games .img-silent {
+  max-width: 336px;
+  height: 189px;
+}
+.sec1 .container .Gow {
+  border-radius: 4%;
+}
+.sec1 .container .img-silent {
+  border-radius: 4%;
+}
+.sec1 .container .img-elden {
+  border-radius: 4%;
+}
+.sec1 .container .img-elden {
+  max-width: 336px;
+}
+.sec1 .container .eldenring :hover {
+  max-width: 340px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); /* Slightly enlarge the div */
+}
+.sec1 h1 {
+  color: #000000;
   font-family: Lora;
-  font-size: 36px;
+  font-size: 50px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 800;
   line-height: normal;
 }
 
@@ -302,5 +361,18 @@ a {
   }
   .head-info button {
     font-size: 5px;
+  }
+}
+@media (max-width: 347px) {
+  .img-elden {
+    width: 200px;
+  }
+  .img-silent {
+    width: 200px;
+    height: 100px;
+  }
+  .Gow {
+    width: 200px;
+    height: 100px;
   }
 }/*# sourceMappingURL=global.css.map */

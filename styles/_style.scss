@@ -128,6 +128,7 @@
   display: flex;
   margin-bottom: 5px;
   gap: 15px;
+  cursor: pointer;
   .div-colorful {
     border-radius: 50%;
     background-color: white;
@@ -143,17 +144,62 @@
 }
 .container {
   @include container;
-  border: 2px solid red;
+  // border: 1px solid red;
 }
 .sec1 {
+  background-color: #f1f1f1;
   .container {
-    h1 {
-      color: #495057;
-      font-family: Lora;
-      font-size: 36px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
+    .div-games {
+      // border: 1px solid black;
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 100%;
+      margin-top: 30px;
+      gap: 30px;
+      justify-content: space-around;
+      .Gow {
+        max-width: 336px;
+        height: 189px;
+      }
+      .GoW :hover {
+        max-width: 340px;
+        transition: all 0.3s;
+        transform: scale(1.1); /* Slightly enlarge the div */
+      }
+      .silenthill :hover {
+        max-width: 340px;
+        transition: all 0.3s;
+        transform: scale(1.1); /* Slightly enlarge the div */
+      }
+      .img-silent {
+        max-width: 336px;
+        height: 189px;
+      }
     }
+    .Gow {
+      border-radius: 4%;
+    }
+    .img-silent {
+      border-radius: 4%;
+    }
+    .img-elden {
+      border-radius: 4%;
+    }
+    .img-elden {
+      max-width: 336px;
+    }
+    .eldenring :hover {
+      max-width: 340px;
+      transition: all 0.3s;
+      transform: scale(1.1); /* Slightly enlarge the div */
+    }
+  }
+  h1 {
+    color: #000000;
+    font-family: Lora;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
   }
 }

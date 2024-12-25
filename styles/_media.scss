@@ -14,34 +14,46 @@
   }
 }
 @media (max-width: 332px) {
-  .head-info{
+  .head-info {
     margin-left: 1px;
   }
-  .div-round{
+  .div-round {
     display: none;
   }
 }
 @media (max-width: 231px) {
-  .head-info{
-   .elden {
-    font-size: 30px;
-   } 
-   p{
-    font-size: 15px;
-   }
-    
+  .head-info {
+    .elden {
+      font-size: 30px;
+    }
+    p {
+      font-size: 15px;
+    }
   }
 }
 @media (max-width: 109px) {
-  .head-info{
-    p{
+  .head-info {
+    p {
       display: none;
     }
-    .elden{
+    .elden {
       font-size: 20px;
     }
-    button{
+    button {
       font-size: 5px;
     }
+  }
+}
+@media (max-width: 347px) {
+  .img-elden {
+    width: 200px;
+  }
+  .img-silent {
+    width: 200px;
+    height: 100px;
+  }
+  .Gow {
+  width: 200px;
+  height: 100px;
   }
 }

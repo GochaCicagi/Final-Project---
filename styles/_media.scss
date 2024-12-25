@@ -7,6 +7,9 @@
   .bars {
     display: block;
   }
+  .bars.active .bar:nth-child(2) {
+    opacity: 0;
+  }
 }
 @media (max-width: 477px) {
   .mpy1 {
@@ -53,7 +56,7 @@
     height: 100px;
   }
   .Gow {
-  width: 200px;
-  height: 100px;
+    width: 200px;
+    height: 100px;
   }
 }

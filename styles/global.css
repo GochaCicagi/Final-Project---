@@ -331,6 +331,9 @@ a {
   .bars {
     display: block;
   }
+  .bars.active .bar:nth-child(2) {
+    opacity: 0;
+  }
 }
 @media (max-width: 477px) {
   .mpy1 {

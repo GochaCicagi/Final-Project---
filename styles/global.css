@@ -271,11 +271,11 @@ a {
       justify-content: space-around;
 }
 .sec1 .container .div-games .Gow {
-  max-width: 336px;
+  max-width: 329px;
   height: 189px;
 }
 .sec1 .container .div-games .GoW :hover {
-  max-width: 340px;
+  max-width: 330px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-transform: scale(1.1);
@@ -283,7 +283,7 @@ a {
           transform: scale(1.1); /* Slightly enlarge the div */
 }
 .sec1 .container .div-games .silenthill :hover {
-  max-width: 340px;
+  max-width: 330px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-transform: scale(1.1);

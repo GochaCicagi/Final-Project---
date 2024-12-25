@@ -157,17 +157,22 @@
       margin-top: 30px;
       gap: 30px;
       justify-content: space-around;
+      .re4 {
+        max-width: 336px;
+        height: 189px;
+        border-radius: 4%;
+      }
       .Gow {
-        max-width: 329px;
+        max-width: 336px;
         height: 189px;
       }
       .GoW :hover {
-        max-width: 330px;
+       
         transition: all 0.3s;
         transform: scale(1.1); /* Slightly enlarge the div */
       }
       .silenthill :hover {
-        max-width: 330px;
+      
         transition: all 0.3s;
         transform: scale(1.1); /* Slightly enlarge the div */
       }
@@ -180,7 +185,8 @@
       border-radius: 4%;
     }
     .img-silent {
-      border-radius: 4%;
+            border-radius: 4%;
+            max-width:  336px;
     }
     .img-elden {
       border-radius: 4%;
@@ -189,6 +195,11 @@
       max-width: 336px;
     }
     .eldenring :hover {
+      max-width: 340px;
+      transition: all 0.3s;
+      transform: scale(1.1); /* Slightly enlarge the div */
+    }
+    .RE4 :hover {
       max-width: 340px;
       transition: all 0.3s;
       transform: scale(1.1); /* Slightly enlarge the div */

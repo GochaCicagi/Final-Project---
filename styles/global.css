@@ -270,12 +270,16 @@ a {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+.sec1 .container .div-games .re4 {
+  max-width: 336px;
+  height: 189px;
+  border-radius: 4%;
+}
 .sec1 .container .div-games .Gow {
-  max-width: 329px;
+  max-width: 336px;
   height: 189px;
 }
 .sec1 .container .div-games .GoW :hover {
-  max-width: 330px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-transform: scale(1.1);
@@ -283,7 +287,6 @@ a {
           transform: scale(1.1); /* Slightly enlarge the div */
 }
 .sec1 .container .div-games .silenthill :hover {
-  max-width: 330px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-transform: scale(1.1);
@@ -299,6 +302,7 @@ a {
 }
 .sec1 .container .img-silent {
   border-radius: 4%;
+  max-width: 336px;
 }
 .sec1 .container .img-elden {
   border-radius: 4%;
@@ -307,6 +311,14 @@ a {
   max-width: 336px;
 }
 .sec1 .container .eldenring :hover {
+  max-width: 340px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); /* Slightly enlarge the div */
+}
+.sec1 .container .RE4 :hover {
   max-width: 340px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -373,10 +385,14 @@ a {
   }
   .img-silent {
     width: 200px;
-    height: 100px;
+    max-height: 112px;
   }
   .Gow {
     width: 200px;
-    height: 100px;
+    max-height: 112px;
+  }
+  .re4 {
+    width: 200px;
+    max-height: 122px;
   }
 }/*# sourceMappingURL=global.css.map */

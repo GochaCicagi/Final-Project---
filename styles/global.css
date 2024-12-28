@@ -364,6 +364,28 @@ a {
   margin-top: -190px;
   margin-left: 15px;
   max-width: 345px;
+  height: 300px;
+}
+.sec2 .container2 .infodivi .div-round2 {
+  width: 74px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 220px;
+  gap: 15px;
+  cursor: pointer;
+}
+.sec2 .container2 .infodivi .div-round2 .div-colorful {
+  border-radius: 50%;
+  background-color: white;
+  height: 10px;
+  width: 10px;
+}
+.sec2 .container2 .infodivi .div-round2 div {
+  height: 10px;
+  border-radius: 50%;
+  width: 10px;
+  background-color: rgba(202, 181, 181, 0.674);
 }
 .sec2 .container2 .infodivi h2 {
   margin-left: 10px;

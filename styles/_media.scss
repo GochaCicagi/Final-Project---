@@ -16,10 +16,10 @@
     display: none;
   }
 }
-@media (max-width: 230px){
-  .sec1{
-    .container{
-      h1{
+@media (max-width: 230px) {
+  .sec1 {
+    .container {
+      h1 {
         font-size: 30px;
       }
     }
@@ -34,7 +34,6 @@
   }
 }
 @media (max-width: 231px) {
- 
   .head-info {
     .elden {
       font-size: 30px;
@@ -75,47 +74,62 @@
   }
 }
 @media (max-width: 239px) {
-  .sec2{
-    .container2{
-      .infodivi{
+  .sec2 {
+    .container2 {
+      .infodivi {
         p {
           font-size: 15px;
         }
-        .godii{
+        .godii {
           font-size: 30px;
         }
       }
     }
-    
   }
 }
+@media (max-width: 294px) {
+  .sec2 {
+    .container2 {
+      .infodivi {
+        p {
+          font-size: 15px;
+        }
+        .godii {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 293px) {
+  .sec2 {
+    .container2 {
+      .infodivi {
+        .div-round2 {
+          margin-top: 110px;
+        }
+        p {
+          font-size: 10px;
+        }
+        .godii {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 360px) {
-  .sec2{
-    .container2{
-      .infodivi{
+  .sec2 {
+    .container2 {
+      .infodivi {
         p {
-          font-size: 15px;
+          font-size: 20px;
         }
-        .godii{
-          font-size: 30px;
+        .godii {
+          font-size: 40px;
         }
       }
     }
-    
-  }
-}
-@media (max-width: 207px) {
-  .sec2{
-    .container2{
-      .infodivi{
-        p {
-          font-size: 15px;
-        }
-        .godii{
-          font-size: 23px;
-        }
-      }
-    }
-    
   }
 }

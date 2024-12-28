@@ -496,7 +496,7 @@ a {
     font-size: 30px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 294px) {
   .sec2 .container2 .infodivi p {
     font-size: 15px;
   }
@@ -504,11 +504,22 @@ a {
     font-size: 30px;
   }
 }
-@media (max-width: 207px) {
+@media (max-width: 293px) {
+  .sec2 .container2 .infodivi .div-round2 {
+    margin-top: 110px;
+  }
   .sec2 .container2 .infodivi p {
-    font-size: 15px;
+    font-size: 10px;
   }
   .sec2 .container2 .infodivi .godii {
-    font-size: 23px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 360px) {
+  .sec2 .container2 .infodivi p {
+    font-size: 20px;
+  }
+  .sec2 .container2 .infodivi .godii {
+    font-size: 40px;
   }
 }/*# sourceMappingURL=global.css.map */

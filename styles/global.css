@@ -496,7 +496,7 @@ a {
     font-size: 30px;
   }
 }
-@media (max-width: 343px) {
+@media (max-width: 360px) {
   .sec2 .container2 .infodivi p {
     font-size: 15px;
   }

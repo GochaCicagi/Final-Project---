@@ -61,11 +61,16 @@ a {
   text-decoration: none;
 }
 
+body {
+  background-color: #f1f1f1;
+}
+
 .head {
   background-image: url(../images/eldenring.jpg);
   background-repeat: no-repeat;
   max-width: 100%;
   height: 500px;
+  border-radius: 0px 0px 5px 5px;
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -123,7 +128,7 @@ a {
 .head-info .elden {
   color: rgb(243, 209, 17);
   font-size: 50px;
-  font-family: Lora;
+  font-family: "Cinzel", serif;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -256,9 +261,6 @@ a {
   margin: 0 auto;
 }
 
-.sec1 {
-  background-color: #f1f1f1;
-}
 .sec1 .container .div-games {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -328,13 +330,78 @@ a {
           transform: scale(1.1); /* Slightly enlarge the div */
 }
 .sec1 h1 {
-  color: #000000;
-  font-family: Lora;
+  color: #121010;
+  font-family: "Cinzel", serif;
   font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 20px;
+}
+
+.sec2 {
+  margin-top: 90px;
+  background-image: url(../images/gow.jpg);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: top;
+  border-radius: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 80px;
+}
+.sec2 .container2 {
+  max-width: 1750px;
+  width: 95%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sec2 .container2 .infodivi {
+  margin-top: -190px;
+  margin-left: -12px;
+  max-width: 345px;
+}
+.sec2 .container2 .infodivi h2 {
+  margin-left: 10px;
+}
+.sec2 .container2 .infodivi .godii {
+  color: rgb(0, 66, 128);
+  font-size: 50px;
+  font-family: "Cinzel", serif;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 20px;
+}
+.sec2 .container2 .infodivi p {
+  font-family: Lora;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 166.667% */
+  margin-bottom: 50px;
+  color: rgb(0, 0, 0);
+}
+.sec2 .container2 .infodivi button {
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
 }
 
 @media (max-width: 690px) {
@@ -351,6 +418,11 @@ a {
 @media (max-width: 477px) {
   .mpy1 {
     display: none;
+  }
+}
+@media (max-width: 230px) {
+  .sec1 .container h1 {
+    font-size: 30px;
   }
 }
 @media (max-width: 332px) {
@@ -371,7 +443,7 @@ a {
 }
 @media (max-width: 109px) {
   .head-info p {
-    display: none;
+    font-size: 5px;
   }
   .head-info .elden {
     font-size: 20px;
@@ -395,5 +467,29 @@ a {
   .re4 {
     width: 200px;
     max-height: 122px;
+  }
+}
+@media (max-width: 239px) {
+  .sec2 .container2 .infodivi p {
+    font-size: 15px;
+  }
+  .sec2 .container2 .infodivi .godii {
+    font-size: 30px;
+  }
+}
+@media (max-width: 343px) {
+  .sec2 .container2 .infodivi p {
+    font-size: 15px;
+  }
+  .sec2 .container2 .infodivi .godii {
+    font-size: 30px;
+  }
+}
+@media (max-width: 207px) {
+  .sec2 .container2 .infodivi p {
+    font-size: 15px;
+  }
+  .sec2 .container2 .infodivi .godii {
+    font-size: 23px;
   }
 }/*# sourceMappingURL=global.css.map */

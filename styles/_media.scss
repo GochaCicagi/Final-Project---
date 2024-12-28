@@ -16,6 +16,15 @@
     display: none;
   }
 }
+@media (max-width: 230px){
+  .sec1{
+    .container{
+      h1{
+        font-size: 30px;
+      }
+    }
+  }
+}
 @media (max-width: 332px) {
   .head-info {
     margin-left: 1px;
@@ -25,6 +34,7 @@
   }
 }
 @media (max-width: 231px) {
+ 
   .head-info {
     .elden {
       font-size: 30px;
@@ -37,7 +47,7 @@
 @media (max-width: 109px) {
   .head-info {
     p {
-      display: none;
+      font-size: 5px;
     }
     .elden {
       font-size: 20px;
@@ -62,5 +72,50 @@
   .re4 {
     width: 200px;
     max-height: 122px;
+  }
+}
+@media (max-width: 239px) {
+  .sec2{
+    .container2{
+      .infodivi{
+        p {
+          font-size: 15px;
+        }
+        .godii{
+          font-size: 30px;
+        }
+      }
+    }
+    
+  }
+}
+@media (max-width: 343px) {
+  .sec2{
+    .container2{
+      .infodivi{
+        p {
+          font-size: 15px;
+        }
+        .godii{
+          font-size: 30px;
+        }
+      }
+    }
+    
+  }
+}
+@media (max-width: 207px) {
+  .sec2{
+    .container2{
+      .infodivi{
+        p {
+          font-size: 15px;
+        }
+        .godii{
+          font-size: 23px;
+        }
+      }
+    }
+    
   }
 }

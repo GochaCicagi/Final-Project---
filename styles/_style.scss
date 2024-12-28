@@ -252,7 +252,9 @@
         font-weight: 500;
         line-height: 25px; /* 166.667% */
         margin-bottom: 50px;
-        color: rgb(255, 255, 255);
+        color: rgba(255, 255, 255, 0.959);
+        
+        text-shadow: -1px -1px 0 black;
       }
       button {
         color: #fff;
@@ -266,7 +268,6 @@
         background: rgba(255, 255, 255, 0.15);
         padding: 5px 10px;
         border: none;
-
         cursor: pointer;
       }
     }

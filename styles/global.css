@@ -362,7 +362,7 @@ a {
 }
 .sec2 .container2 .infodivi {
   margin-top: -190px;
-  margin-left: -12px;
+  margin-left: 50px;
   max-width: 345px;
 }
 .sec2 .container2 .infodivi h2 {
@@ -383,7 +383,7 @@ a {
   font-weight: 500;
   line-height: 25px; /* 166.667% */
   margin-bottom: 50px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .sec2 .container2 .infodivi button {
   color: #fff;

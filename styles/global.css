@@ -62,7 +62,7 @@ a {
 }
 
 body {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   z-index: -1111111;
 }
 
@@ -552,5 +552,16 @@ body {
   }
   .sec2 .container2 .infodivi .p2 {
     margin-top: 90px;
+  }
+}
+@media (max-width: 600px) {
+  .sec2 .container2 .infodivi {
+    margin-left: 1px;
+  }
+  .sec2 .container2 .infodivi .godii {
+    margin-top: 70px;
+  }
+  .sec2 .container2 .infodivi .p2 {
+    margin-top: 40px;
   }
 }/*# sourceMappingURL=global.css.map */

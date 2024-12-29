@@ -337,10 +337,10 @@ a {
 
 .sec2 {
   background-image: url(../images/GOW.jpg);
-  margin-top: 90px;
+  margin-top: 70px;
   background-repeat: no-repeat;
   max-width: 100%;
-  height: 500px;
+  height: 700px;
   background-size: cover;
   background-position: top;
   border-radius: 1%;
@@ -363,7 +363,7 @@ a {
 .sec2 .container2 .infodivi {
   margin-top: -190px;
   margin-left: 15px;
-  max-width: 345px;
+  max-width: 350px;
   height: 300px;
 }
 .sec2 .container2 .infodivi .div-round2 {
@@ -395,12 +395,14 @@ a {
   font-size: 48px;
   font-family: "Cinzel", serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
+  text-shadow: -1px -1px 0 black;
   line-height: normal;
 }
 .sec2 .container2 .infodivi p {
   font-family: Lora;
   font-size: 23px;
+  margin-top: 10px;
   font-style: normal;
   font-weight: 500;
   line-height: 25px; /* 166.667% */
@@ -409,6 +411,7 @@ a {
   text-shadow: -1px -1px 0 black;
 }
 .sec2 .container2 .infodivi button {
+  margin-bottom: 13px;
   color: #fff;
   text-align: right;
   font-family: Roboto;
@@ -515,11 +518,27 @@ a {
     font-size: 15px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 366px) {
   .sec2 .container2 .infodivi p {
     font-size: 20px;
   }
   .sec2 .container2 .infodivi .godii {
     font-size: 40px;
+  }
+}
+@media (max-width: 203px) {
+  .sec2 .container2 .infodivi .div-colorful {
+    display: none;
+  }
+  .sec2 .container2 .infodivi .div-round2 {
+    display: none;
+  }
+}
+@media (max-width: 327px) {
+  .sec2 .container2 .infodivi {
+    margin-left: 1px;
+  }
+  .sec2 .container2 .infodivi .p2 {
+    margin-top: 90px;
   }
 }/*# sourceMappingURL=global.css.map */

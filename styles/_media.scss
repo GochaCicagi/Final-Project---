@@ -119,7 +119,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 366px) {
   .sec2 {
     .container2 {
       .infodivi {
@@ -128,6 +128,33 @@
         }
         .godii {
           font-size: 40px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 203px) {
+  .sec2 {
+    .container2 {
+      .infodivi {
+        .div-colorful {
+          display: none;
+        }
+        .div-round2 {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 327px) {
+  .sec2 {
+    .container2 {
+      .infodivi {
+       
+        margin-left: 1px;
+        .p2{
+          margin-top: 90px;
         }
       }
     }

@@ -61,6 +61,11 @@ a {
   text-decoration: none;
 }
 
+body {
+  background-color: #F1F1F1;
+  z-index: -1111111;
+}
+
 .head {
   background-image: url(../images/eldenring.jpg);
   background-repeat: no-repeat;
@@ -424,6 +429,13 @@ a {
   padding: 5px 10px;
   border: none;
   cursor: pointer;
+}
+
+.foot {
+  background: #212529;
+  height: 350px;
+  max-width: 100%;
+  width: 100%;
 }
 
 @media (max-width: 690px) {

@@ -308,6 +308,9 @@ body {
   border-radius: 4%;
   max-width: 336px;
 }
+.sec1 .container .eldenring {
+  max-width: 336px;
+}
 .sec1 .container .img-elden {
   border-radius: 4%;
 }
@@ -436,6 +439,49 @@ body {
   height: 350px;
   max-width: 100%;
   width: 100%;
+}
+
+.foot .containera {
+  max-width: 1750px;
+  width: 95%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+.foot .containera .kontaqti {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 137px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 30px;
+}
+.foot .containera .kontaqti a {
+  color: #e5e5e5;
+  font-family: Lora;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.foot .containera .kontaqti h1 {
+  color: #fff;
+  font-family: Lora;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
 }
 
 @media (max-width: 690px) {

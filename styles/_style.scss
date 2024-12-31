@@ -191,6 +191,9 @@ body {
       border-radius: 4%;
       max-width: 336px;
     }
+    .eldenring {
+      max-width: 336px;
+    }
     .img-elden {
       border-radius: 4%;
     }
@@ -299,9 +302,42 @@ body {
     }
   }
 }
+
 .foot {
   background: #212529;
   height: 350px;
   max-width: 100%;
   width: 100%;
+}
+.foot {
+  .containera {
+    @include container;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    .kontaqti {
+      margin-top: 10px;
+      display: flex;
+      max-width: 137px;
+      flex-direction: column;
+      row-gap: 30px;
+      a {
+        color: #e5e5e5;
+        font-family: Lora;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      h1 {
+        color: #fff;
+        font-family: Lora;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; /* 138.889% */
+      }
+    }
+  }
 }

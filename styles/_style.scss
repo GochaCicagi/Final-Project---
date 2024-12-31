@@ -317,23 +317,44 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     .kontaqti {
-      margin-top: 10px;
+      margin-top: 60px;
       display: flex;
-      max-width: 137px;
+      max-width: 155px;
       flex-direction: column;
       row-gap: 30px;
+      .div {
+        display: flex;
+
+        justify-content: space-between;
+      }
+      img {
+        width: 30px;
+        cursor: pointer;
+        height: 30px;
+      }
       a {
         color: #e5e5e5;
-        font-family: Lora;
+        font-family: "Cinzel", serif;
+        font-size: 15px;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      h3 {
+        color: #e5e5e5;
+        font-family: "Cinzel", serif;
         font-size: 15px;
         font-style: normal;
+        cursor: pointer;
         font-weight: 400;
         line-height: normal;
       }
       h1 {
         color: #fff;
-        font-family: Lora;
+        font-family: "Cinzel", serif;
         font-size: 21px;
+        cursor: pointer;
         font-style: normal;
         font-weight: 700;
         line-height: 25px; /* 138.889% */

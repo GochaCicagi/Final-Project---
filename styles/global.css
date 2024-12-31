@@ -456,29 +456,53 @@ body {
   gap: 20px;
 }
 .foot .containera .kontaqti {
-  margin-top: 10px;
+  margin-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 137px;
+  max-width: 155px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   row-gap: 30px;
 }
+.foot .containera .kontaqti .div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.foot .containera .kontaqti img {
+  width: 30px;
+  cursor: pointer;
+  height: 30px;
+}
 .foot .containera .kontaqti a {
   color: #e5e5e5;
-  font-family: Lora;
+  font-family: "Cinzel", serif;
+  font-size: 15px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.foot .containera .kontaqti h3 {
+  color: #e5e5e5;
+  font-family: "Cinzel", serif;
   font-size: 15px;
   font-style: normal;
+  cursor: pointer;
   font-weight: 400;
   line-height: normal;
 }
 .foot .containera .kontaqti h1 {
   color: #fff;
-  font-family: Lora;
+  font-family: "Cinzel", serif;
   font-size: 21px;
+  cursor: pointer;
   font-style: normal;
   font-weight: 700;
   line-height: 25px; /* 138.889% */

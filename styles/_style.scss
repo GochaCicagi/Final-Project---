@@ -305,7 +305,7 @@ body {
 
 .foot {
   background: #212529;
-  height: 350px;
+  height: 650px;
   max-width: 100%;
   width: 100%;
 }
@@ -316,6 +316,56 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+    .EXPLORATE{
+      margin-top: 60px;
+      display: flex;
+      max-width: 155px;
+      flex-direction: column;
+      row-gap: 30px;
+      h3 {
+        color: #e5e5e5;
+        font-family: "Cinzel", serif;
+        font-size: 15px;
+        font-style: normal;
+        cursor: pointer;
+        font-weight: 400;
+        line-height: normal;
+      }
+      h1 {
+        color: #fff;
+        font-family: "Cinzel", serif;
+        font-size: 21px;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; /* 138.889% */
+      }
+    }
+    .Headquarter{
+      margin-top: 60px;
+      display: flex;
+      max-width: 155px;
+      flex-direction: column;
+      row-gap: 30px;
+      h3 {
+        color: #e5e5e5;
+        font-family: "Cinzel", serif;
+        font-size: 15px;
+        font-style: normal;
+        cursor: pointer;
+        font-weight: 400;
+        line-height: normal;
+      }
+      h1 {
+        color: #fff;
+        font-family: "Cinzel", serif;
+        font-size: 21px;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; /* 138.889% */
+      }
+    }
     .kontaqti {
       margin-top: 60px;
       display: flex;

@@ -175,10 +175,34 @@
   }
 }
 @media (max-width: 677px) {
-  .foot{
-    .containera{
-      .EXPLORATE{
+  .foot {
+    .containera {
+      .EXPLORATE {
         display: none;
+      }
+    }
+  }
+}
+@media (max-width: 513px) {
+  .foot {
+    .containera {
+      .connection {
+        margin-left: 120px;
+      }
+    }
+  }
+}
+@media (max-width: 332px) {
+  .foot {
+    .containera {
+      .kontaqti {
+        margin-left: 10px;
+      }
+      .Headquarter {
+        margin-left: 10px;
+      }
+      .connection {
+        margin-left: 10px;
       }
     }
   }

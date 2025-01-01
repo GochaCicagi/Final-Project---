@@ -305,7 +305,7 @@ body {
 
 .foot {
   background: #212529;
-  height: 650px;
+  height: 540px;
   max-width: 100%;
   width: 100%;
 }
@@ -316,7 +316,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
-    .EXPLORATE{
+    .EXPLORATE {
       margin-top: 60px;
       display: flex;
       max-width: 155px;
@@ -341,7 +341,7 @@ body {
         line-height: 25px; /* 138.889% */
       }
     }
-    .Headquarter{
+    .Headquarter {
       margin-top: 60px;
       display: flex;
       max-width: 155px;
@@ -364,6 +364,39 @@ body {
         font-style: normal;
         font-weight: 700;
         line-height: 25px; /* 138.889% */
+      }
+    }
+    .connection {
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+      row-gap: 20px;
+      .div {
+        display: flex;
+        justify-content: space-between;
+      }
+      h1 {
+        color: #fff;
+        font-family: "Cinzel", serif;
+        font-size: 21px;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; /* 138.889% */
+      }
+      h3 {
+        color: #e5e5e5;
+        font-family: "Cinzel", serif;
+        font-size: 15px;
+        font-style: normal;
+        cursor: pointer;
+        font-weight: 400;
+        line-height: normal;
+      }
+      img {
+        width: 30px;
+        cursor: pointer;
+        height: 30px;
       }
     }
     .kontaqti {
@@ -372,16 +405,7 @@ body {
       max-width: 155px;
       flex-direction: column;
       row-gap: 30px;
-      .div {
-        display: flex;
 
-        justify-content: space-between;
-      }
-      img {
-        width: 30px;
-        cursor: pointer;
-        height: 30px;
-      }
       a {
         color: #e5e5e5;
         font-family: "Cinzel", serif;

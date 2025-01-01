@@ -436,7 +436,7 @@ body {
 
 .foot {
   background: #212529;
-  height: 650px;
+  height: 540px;
   max-width: 100%;
   width: 100%;
 }
@@ -515,6 +515,48 @@ body {
   font-weight: 700;
   line-height: 25px; /* 138.889% */
 }
+.foot .containera .connection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 60px;
+  row-gap: 20px;
+}
+.foot .containera .connection .div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.foot .containera .connection h1 {
+  color: #fff;
+  font-family: "Cinzel", serif;
+  font-size: 21px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+.foot .containera .connection h3 {
+  color: #e5e5e5;
+  font-family: "Cinzel", serif;
+  font-size: 15px;
+  font-style: normal;
+  cursor: pointer;
+  font-weight: 400;
+  line-height: normal;
+}
+.foot .containera .connection img {
+  width: 30px;
+  cursor: pointer;
+  height: 30px;
+}
 .foot .containera .kontaqti {
   margin-top: 60px;
   display: -webkit-box;
@@ -526,19 +568,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   row-gap: 30px;
-}
-.foot .containera .kontaqti .div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.foot .containera .kontaqti img {
-  width: 30px;
-  cursor: pointer;
-  height: 30px;
 }
 .foot .containera .kontaqti a {
   color: #e5e5e5;
@@ -698,5 +727,21 @@ body {
 @media (max-width: 677px) {
   .foot .containera .EXPLORATE {
     display: none;
+  }
+}
+@media (max-width: 513px) {
+  .foot .containera .connection {
+    margin-left: 120px;
+  }
+}
+@media (max-width: 332px) {
+  .foot .containera .kontaqti {
+    margin-left: 10px;
+  }
+  .foot .containera .Headquarter {
+    margin-left: 10px;
+  }
+  .foot .containera .connection {
+    margin-left: 10px;
   }
 }/*# sourceMappingURL=global.css.map */

@@ -436,7 +436,7 @@ body {
 
 .foot {
   background: #212529;
-  height: 540px;
+  height: 539px;
   max-width: 100%;
   width: 100%;
 }
@@ -731,7 +731,7 @@ body {
 }
 @media (max-width: 513px) {
   .foot .containera .connection {
-    margin-left: 120px;
+    margin-left: 110px;
   }
 }
 @media (max-width: 332px) {

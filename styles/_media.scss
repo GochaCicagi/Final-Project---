@@ -25,21 +25,24 @@
     }
   }
 }
-@media (max-width: 332px) {
+
+@media (max-width: 375px) {
   .head-info {
     margin-left: 1px;
   }
+}
+@media (max-width: 210px) {
   .div-round {
     display: none;
   }
 }
-@media (max-width: 231px) {
+@media (max-width: 298px) {
   .head-info {
     .elden {
-      font-size: 30px;
+      font-size: 35px;
     }
     p {
-      font-size: 15px;
+      font-size: 20px;
     }
   }
 }
@@ -187,7 +190,7 @@
   .foot {
     .containera {
       .connection {
-        margin-left: 110px;
+        margin-left: 100px;
       }
     }
   }

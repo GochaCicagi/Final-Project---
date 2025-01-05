@@ -7,9 +7,6 @@
   .bars {
     display: block;
   }
-  .bars.active .bar:nth-child(2) {
-    opacity: 0;
-  }
 }
 @media (max-width: 477px) {
   .mpy1 {
@@ -25,7 +22,14 @@
     }
   }
 }
-
+@media (max-width: 375px) {
+  .head-info2 {
+    margin-left: 3px;
+    .elden2{
+      font-size: 30px;
+    }
+  }
+}
 @media (max-width: 375px) {
   .head-info {
     margin-left: 13px;
@@ -46,10 +50,14 @@
     }
   }
 }
+
 @media (max-width: 109px) {
   .head-info {
     p {
       font-size: 5px;
+    }
+    .elden2 {
+      font-size: 20px;
     }
     .elden {
       font-size: 20px;
@@ -208,5 +216,10 @@
         margin-left: 10px;
       }
     }
+  }
+}
+@media (max-width: 318) {
+  .head-info2{
+    margin-left: 1px;
   }
 }

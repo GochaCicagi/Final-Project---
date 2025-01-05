@@ -40,6 +40,7 @@ body {
     line-height: 20px; /* 166.667% */
     margin-bottom: 50px;
   }
+
   .elden {
     color: rgb(243, 209, 17);
     font-size: 50px;
@@ -53,7 +54,19 @@ body {
     cursor: pointer;
   }
 }
-
+.head-info2 button {
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 5px 10px;
+  border: none;
+}
 .head-info button {
   color: #fff;
   text-align: right;
@@ -447,4 +460,29 @@ body {
   display: flex;
   align-items: center;
 }
-
+.head-info2 {
+  max-width: 300px;
+  margin-left: 40px;
+  display: flex;
+  row-gap: 10px;
+  max-height: 296px;
+  flex-direction: column;
+  align-items: start;
+  .elden2 {
+    color: rgb(243, 209, 17);
+    font-size: 40px;
+    font-family: "Cinzel", serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  p {
+    color: #e5e5e5;
+    font-family: Lora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    margin-bottom: 50px;
+  }
+}

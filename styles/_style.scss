@@ -2,6 +2,9 @@ body {
   background-color: #f1f1f1;
   z-index: -1111111;
 }
+html {
+  scroll-behavior: smooth;
+}
 .head {
   background-image: url(../images/eldenring.jpg);
   background-repeat: no-repeat;

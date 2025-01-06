@@ -66,6 +66,10 @@ body {
   z-index: -1111111;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .head {
   background-image: url(../images/eldenring.jpg);
   background-repeat: no-repeat;

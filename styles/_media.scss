@@ -198,7 +198,7 @@
   .foot {
     .containera {
       .connection {
-        margin-left: 100px;
+        margin-left: 90px;
       }
     }
   }
@@ -241,3 +241,33 @@
     }
   }
 }
+
+@media (max-width: 375px) {
+  .sec2u {
+    .container2 {
+      .infodivi {
+        .goda {
+          font-size: 40px;
+        }
+        .p222 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 330px) {
+  .sec2u {
+    .container2 {
+      .infodivi {
+        .goda {
+          font-size: 30px;
+        }
+        .p222 {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+

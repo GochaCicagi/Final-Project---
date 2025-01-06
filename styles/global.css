@@ -280,6 +280,9 @@ html {
   margin: 0 auto;
 }
 
+.sec1 .container h1 {
+  margin-left: 60px;
+}
 .sec1 .container .div-games {
   display: -webkit-box;
   display: -ms-flexbox;

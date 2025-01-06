@@ -24,9 +24,9 @@
 }
 @media (max-width: 375px) {
   .head-info2 {
-    margin-left: 3px;
-    .elden2{
-      font-size: 30px;
+    margin-left: 2px;
+    .elden2 {
+      font-size: 25px;
     }
   }
 }
@@ -219,7 +219,14 @@
   }
 }
 @media (max-width: 318) {
-  .head-info2{
+  .head-info2 {
     margin-left: 1px;
+  }
+}
+@media (max-width: 688px) {
+  .container2 {
+    .info {
+      flex-direction: column;
+    }
   }
 }

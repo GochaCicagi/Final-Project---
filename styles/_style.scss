@@ -163,7 +163,6 @@ body {
 }
 .container {
   @include container;
-  // border: 1px solid red;
 }
 .sec1 {
   .container {
@@ -484,5 +483,56 @@ body {
     font-weight: 400;
     line-height: 20px; /* 166.667% */
     margin-bottom: 50px;
+  }
+}
+.sec1u {
+  .container2 {
+    @include container;
+    display: flex;
+    justify-content: start;
+ 
+    margin-top: 50px;
+    border: 1px solid red;
+    .infoo {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      h1 {
+        font-size: 35px;
+        color: #242627;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 178.571% */
+        font-family: "Cinzel", serif;
+      }
+      p {
+        color: #495057;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 178.571% */
+        font-family: "Cinzel", serif;
+      }
+    }
+    .info {
+      display: flex;
+      gap: 17px;
+      margin-right: 100px;
+      h3 {
+        margin-right: 3px;
+        color: #495057;
+        font-family: "Cinzel", serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px; /* 138.889% */
+      }
+      .linee {
+        width: 35px;
+        height: 1px;
+        background: #000000;
+        margin-top: 10px;
+      }
+    }
   }
 }

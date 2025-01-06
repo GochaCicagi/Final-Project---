@@ -665,12 +665,14 @@ html {
   margin-bottom: 50px;
 }
 
+.sec1u {
+  background-color: #f0ebeb;
+}
 .sec1u .container2 {
   max-width: 1750px;
   width: 95%;
   margin: 0 auto;
   border-radius: 3px;
-  background-color: #f0ebeb;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

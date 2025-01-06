@@ -489,10 +489,10 @@ html {
   }
 }
 .sec1u {
+  background-color: #f0ebeb;
   .container2 {
     @include container;
     border-radius: 3px;
-    background-color: #f0ebeb;
     display: flex;
     justify-content: start;
     margin-bottom: 50px;

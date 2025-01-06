@@ -6,7 +6,7 @@ body {
   background-image: url(../images/eldenring.jpg);
   background-repeat: no-repeat;
   max-width: 100%;
-  height: 500px;
+  height: 600px;
   border-radius: 0px 0px 5px 5px;
   background-size: cover;
   background-position: center;
@@ -452,7 +452,7 @@ body {
   background-image: url(../images/pngtree-3d-rendered-graphic-design-on-computer-picture-image_5808841.jpg);
   background-repeat: no-repeat;
   max-width: 100%;
-  height: 500px;
+  height: 600px;
   border-radius: 0px 0px 5px 5px;
   background-size: cover;
   background-position: center;
@@ -488,11 +488,12 @@ body {
 .sec1u {
   .container2 {
     @include container;
+    border-radius: 3px;
+    background-color: #f0ebeb;
     display: flex;
     justify-content: start;
-
+    margin-bottom: 50px;
     margin-top: 50px;
-    border: 1px solid red;
     .infoo {
       display: flex;
       flex-direction: column;

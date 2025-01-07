@@ -281,7 +281,7 @@ html {
 }
 
 .sec1 .container h1 {
-  margin-left: 84px;
+  margin-left: 70px;
 }
 .sec1 .container .div-games {
   display: -webkit-box;
@@ -972,7 +972,7 @@ html {
 }
 @media (max-width: 513px) {
   .foot .containera .connection {
-    margin-left: 90px;
+    margin-left: 80px;
   }
 }
 @media (max-width: 332px) {

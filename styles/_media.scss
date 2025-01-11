@@ -248,9 +248,11 @@
       .infodivi {
         .goda {
           font-size: 40px;
+        
         }
         .p222 {
           font-size: 20px;
+      
         }
       }
     }
@@ -262,11 +264,20 @@
       .infodivi {
         .goda {
           font-size: 30px;
+        
         }
         .p222 {
           font-size: 15px;
+       
         }
       }
+    }
+  }
+}
+@media (max-width: 375px) {
+  .head2{
+    .head-info2{
+      margin-left: 13px;
     }
   }
 }

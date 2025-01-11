@@ -1032,4 +1032,9 @@ html {
   .sec2u .container2 .infodivi .p222 {
     font-size: 15px;
   }
+}
+@media (max-width: 375px) {
+  .head2 .head-info2 {
+    margin-left: 13px;
+  }
 }/*# sourceMappingURL=global.css.map */

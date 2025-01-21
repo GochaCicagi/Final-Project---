@@ -12,3 +12,9 @@
   align-items: center;
   // border: 1px solid red;
 }
+@mixin footer {
+  background: #212529;
+  height: 539px;
+  max-width: 100%;
+  width: 100%;
+}

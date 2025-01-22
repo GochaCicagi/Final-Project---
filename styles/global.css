@@ -281,7 +281,7 @@ html {
 }
 
 .sec1 .container h1 {
-  margin-left: 70px;
+  margin-left: 35px;
 }
 .sec1 .container .div-games {
   display: -webkit-box;
@@ -859,7 +859,7 @@ html {
     font-size: 30px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 379px) {
   .head-info2 {
     margin-left: 2px;
   }
@@ -1017,7 +1017,7 @@ html {
     font-size: 25px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 382px) {
   .sec2u .container2 .infodivi .goda {
     font-size: 40px;
   }
